@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="box">
+
+        <img class="apple" src="./img/apple.jpg"/>
+
+        <h4 class="ap">Apple</h4>
+
+        
+        <button onclick="myFunction()" class="buton">Fruit Price</button>
+    </div>
+    
+    
+    <dialog id="myDialog">
+     <div class="suuu">
+       Apple price: 1kg = 1.75$
+        <button id="remove" onclick="removeFunction()">close</button>
+    </div> 
+    </dialog>
+    
+    <script>
+    function myFunction() { 
+      document.getElementById("myDialog").showModal(); 
+    } 
+
+    function removeFunction() {
+        const e = document.getElementById("myDialog");
+        e.remove();
+    }
+    </script>
+    
+    
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.to{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.lorrem{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.buton{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(120, 228, 228);
+    color: white;
+    border: none;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+.inp{
+    margin-top: 5px;
+    padding: 5px 10px;
+}
+
+
+.suuu{
+    
+margin-top: 20px;
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+}
+
+#myDialog{
+    margin-left: 600px;
+    margin-top: 200px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid white;
+}
+
+.box{
+border: 3px solid rgb(167, 166, 166);
+width: 400px;
+margin-left: 100px;
+margin-top: 150px;
+border-radius: 10px;
+}
+
+
+
+.apple{
+    width: 350px;
+    height: 250px;
+}
+
+.ap{
+margin-left: 20px;
+
+}
+
+#remove{
+    background-color: rgb(232, 93, 93);
+    padding: 5px 15px;
+    margin-top: 10px;
+    margin-left: 55px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
